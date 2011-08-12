@@ -1,0 +1,43 @@
+Description
+===========
+A wrapper class that allows you to retrieve non-IOobjects through the
+object registry.  Performs no input or output, simply for a const reference
+retrieval.  It is a user-installed modification to OpenFOAM's core library.
+
+Original Author
+===============
+David L. F. Gaden (david_gaden@umanitoba.ca)
+
+Current Maintainer
+==================
+David L. F. Gaden (david_gaden@umanitoba.ca)
+
+Contributors
+============
+David L. F. Gaden : base version
+
+Documentation
+=============
+See: http://openfoamwiki.net/index.php/Contrib_IOReferencer
+
+Installation/Compilation
+========================
+
+Please refer to the wiki page for the latest installation instructions.
+Otherwise, do the following:
+
+    1. copy the IOReferencer directory into src/OpenFOAM/db/IOobjects
+
+You are done.  IOReferencer is now installed.
+
+Contents
+========
+ - The IOReferencer directory, containing a header and source file.
+
+Required OpenFOAM-Version (Known to work with)
+==============================================
+All versions of OpenFOAM (tested on 1.6-ext).
+
+History
+=======
+ 2011-08-12: Initial import
